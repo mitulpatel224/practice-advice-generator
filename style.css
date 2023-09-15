@@ -92,9 +92,6 @@ h1 {
   text-align: center;
   margin: 20px auto;
 }
-.advice-card-message::before, .advice-card-message::after {
-  content: '"';
-}
 .advice-card-divider {
   margin: 20px auto -20px;
 }
