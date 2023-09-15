@@ -14,12 +14,13 @@ main {
 body {
   background-color: hsl(218, 23%, 16%);
   font-family: "Manrope", sans-serif;
-  font-size: 0.75rem;
+  font-size: 0.5rem;
   color: hsl(193, 38%, 86%);
 }
 
 a {
   text-decoration: none;
+  color: hsl(217, 19%, 38%);
 }
 
 h1 {
@@ -109,8 +110,14 @@ h1 {
 }
 .footer {
   margin-bottom: 20px;
+  color: hsl(217, 19%, 24%);
 }
 
+@media (min-width: 768px) {
+  .footer {
+    font-size: 0.75rem;
+  }
+}
 .d-flex {
   display: flex;
 }
