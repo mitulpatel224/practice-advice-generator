@@ -1,0 +1,34 @@
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-content {
+  &-center {
+    justify-content: center;
+  }
+  &-between {
+    justify-content: space-between;
+  }
+}
+
+.align-items {
+  &-center {
+    align-items: center;
+  }
+}
+
+.align-self {
+  &-center {
+    align-self: center;
+  }
+}
+
+// Generate: flex-gap
+@for $i from 1 through 5 {
+  .gap-#{$i} {
+    gap: #{$i}rem;
+  }
+}

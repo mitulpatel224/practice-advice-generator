@@ -1,0 +1,41 @@
+.advice {
+  font-size: 1.75rem;
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  &-card {
+    position: relative;
+    width: 327px;
+    padding: 10px;
+    background-color: $DarkGrayishBlue;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #00000082;
+    &-header {
+      margin: 20px auto;
+    }
+    &-message {
+      position: relative;
+      text-align: center;
+      margin: 20px auto;
+      &::before,
+      &::after {
+        content: '"';
+      }
+    }
+    &-divider {
+      margin: 20px auto -20px;
+    }
+    &-action {
+      position: relative;
+      bottom: -40px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .advice {
+    &-card {
+      width: 480px;
+    }
+  }
+}

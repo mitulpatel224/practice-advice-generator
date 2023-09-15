@@ -1,0 +1,15 @@
+$gutter-x: 3rem;
+
+.container {
+  width: 100%;
+  padding-left: $gutter-x * 0.5;
+  padding-right: $gutter-x * 0.5;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1320px;
+  }
+}
