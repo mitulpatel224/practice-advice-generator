@@ -17,10 +17,6 @@
       position: relative;
       text-align: center;
       margin: 20px auto;
-      &::before,
-      &::after {
-        content: '"';
-      }
     }
     &-divider {
       margin: 20px auto -20px;
